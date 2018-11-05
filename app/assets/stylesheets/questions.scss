@@ -1,0 +1,70 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+#button {
+  background-color: #42546E;
+  padding: 5px 30px 5px 30px;
+  border-radius: 0 5px 5px 0;
+  font-size: 12px;
+  margin-left: 0px;
+  color: white;
+  border: 1px solid #42546E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#text {
+  font-family: 'Montserrat', sans-serif;
+  margin-right: 0;
+  width: 300px;
+  padding-left: 10px;
+  font-size: 14px;
+  border-radius: 5px 0 0 5px;
+  box-shadow: none;
+  border: 1px solid #42546E;
+  opacity: 0.5;
+  line-height: 22px;
+}
+
+.your-question {
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+  border-left: 5px solid #DDDDDD;
+  margin: 10px;
+
+}
+.answer {
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+  background-color: #FFFEE2;
+  border-left: 5px solid #DDDDDD;
+  margin: 10px;
+  text-decoration: none;
+}
+.new-question {
+  font-family: 'Montserrat', sans-serif;
+}
+.new-question:link {
+  color: #42546E;
+  text-decoration: none;
+}
+.new-question:visited {
+  text-decoration: none;
+  color: #42546E;
+}
+.new-question:active {
+  color: #42546E;
+  text-decoration: none;
+}
+.new-question:hover {
+  color: #42546E;
+  text-decoration: none;
+}
